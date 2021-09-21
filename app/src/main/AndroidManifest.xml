@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jetpackapp">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetpackApp">
+        <activity
+            android:name=".bluetoothgithub.BluetoothActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bluetooth.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Ble"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="Login"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:label="Register"
+            android:theme="@style/Theme.JetpackApp.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Compose20"
+            android:exported="true"
+            android:label="@string/title_activity_compose20"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".Compose19"
+            android:exported="true"
+            android:label="@string/title_activity_compose19"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".Compose13"
+            android:exported="true"
+            android:label="@string/compose13"
+            android:theme="@style/Theme.JetpackApp" />
+        <activity
+            android:name=".Compose12"
+            android:exported="true"
+            android:label="Custom Progressbar"
+            android:theme="@style/Theme.JetpackApp" />
+        <activity
+            android:name=".ExampleDemo"
+            android:exported="true"
+            android:label="@string/title_activity_example_demo"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".Compose11"
+            android:exported="true"
+            android:label="@string/title_activity_compose11"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".Compose10"
+            android:exported="true"
+            android:label="@string/title_activity_compose10"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".Compose9"
+            android:exported="true"
+            android:label="@string/title_activity_compose9"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".Compose8"
+            android:exported="true"
+            android:label="@string/title_activity_compose8"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".Compose7"
+            android:exported="true"
+            android:label="@string/title_activity_compose7"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".DemoExample"
+            android:exported="true"
+            android:label="Demo"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Jetpack App</string>
+    <string name="title_activity_compose7">Compose7</string>
+    <string name="title_activity_compose8">Compose8</string>
+    <string name="title_activity_compose9">Compose9</string>
+    <string name="title_activity_compose10">Compose10</string>
+    <string name="title_activity_compose11">Compose11</string>
+    <string name="title_activity_example_demo">ExampleDemo</string>
+    <string name="title_activity_compose12">Compose12</string>
+    <string name="compose13">Compose13</string>
+    <string name="title_activity_compose19">Compose19</string>
+    <string name="title_activity_compose20">Compose20</string>
+</resources>
