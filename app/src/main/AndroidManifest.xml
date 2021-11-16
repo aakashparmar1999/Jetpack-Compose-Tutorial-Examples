@@ -23,14 +23,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackApp">
         <activity
-            android:name=".bluetoothgithub.BluetoothActivity"
-            android:exported="true">
+            android:name=".loginandsignup.Splash"
+            android:exported="true"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".loginandsignup.Dashboard"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".loginandsignup.Activity"
+            android:exported="true"
+            android:theme="@style/Theme.JetpackApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".loginandsignup.SignupPage"
+            android:exported="true" />
+        <activity
+            android:name=".navigation.NavigationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.JetpackApp.NoActionBar" />
+        <activity
+            android:name=".loginandsignup.SignInPage"
+            android:exported="true" />
+        <activity
+            android:name=".bluetoothgithub.BluetoothActivity"
+            android:exported="true" />
         <activity
             android:name=".bluetooth.MainActivity"
             android:exported="true" />

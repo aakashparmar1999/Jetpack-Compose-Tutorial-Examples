@@ -10,4 +10,8 @@
     <string name="compose13">Compose13</string>
     <string name="title_activity_compose19">Compose19</string>
     <string name="title_activity_compose20">Compose20</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_">Activity</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_splash">Splash</string>
 </resources>
